@@ -17,9 +17,9 @@ function functionSquare() {
     return a * a;
 }
 
-let result = functionSquare(); // Call the function to get the result
+let result = functionSquare(); 
 
-alert(result); // Display the result using alert:
+alert(result); 
 
 
 
