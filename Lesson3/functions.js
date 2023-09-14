@@ -1,6 +1,5 @@
 // 1)
 
-
 function functionSquare() {
     let a = parseInt(prompt("შეიყვანეთ რიცხვის მნიშვნელობა"));
     return a * a;
