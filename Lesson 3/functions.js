@@ -1,16 +1,4 @@
-// function functionSquare() {
-//     let a = parseInt(prompt("შეიყვანეთ მნიშვნელობა"));
-
-//     if (!isNaN(a)) {
-//       return alert(`შეყვანილი რიცხვის კვადრატია ${functionSquare}`);
-//     } else if (a === 0) {
-//       return alert("ნულის კვადრატი არის ნული");
-//     } else {
-//       return alert("მნიშვნელობა უნდა იყოს ციფრი");
-//     }
-//   }
-
-
+// 1)
 
 function functionSquare() {
     let a = parseInt(prompt("შეიყვანეთ რიცხვის მნიშვნელობა"));
@@ -23,16 +11,10 @@ alert(result);
 
 
 
-// function farenheitConverter(){
-//     let f=parseInt(prompt("შეიყვანეთ C"))
-//     return (c*9/5)+32
-// }
-
-// let celcius =farenheitConverter();
-// alert(celcius)
 
 
 
+// 2)
 function fahrenheitConverter() {
     let c = parseInt(prompt("შეიყვანეთ C"));
     return (c * 9 / 5) + 32;
@@ -43,7 +25,7 @@ alert(celsius);
 // --------------
 
 
-// 3-----------
+// 3)
 
 
 function reverseString(str) {
@@ -58,7 +40,7 @@ let shebtunebuliTexti = reverseString
 alert(reverseString("Geeks for Geeks"));
 
 
-// 4-------------
+// 4)
 
 let vegetables = 'Carrot'
 switch (vegetables) {
@@ -73,7 +55,7 @@ switch (vegetables) {
 }
 
 
-// -6-----------
+// 5)
 let action = "move";
 switch (action) {
     case "move":
