@@ -31,7 +31,9 @@ function reverseString(str) {
 
 }
 
+let shebrunebuliTexti = reverseString
 
+ 
 
 alert(reverseString("ABCDEFG"));
 
